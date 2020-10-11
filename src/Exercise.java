@@ -32,19 +32,19 @@ public class Exercise {
 		p5.setPdName("AirPods");
 		p5.setPdPrice(199.99);
 
-		Map <String, String > map = new HashMap();
+		Map <String, Object > map = new HashMap();
 
     //Add keys and values to map
-		map.put("01","p1");
-		map.put("02","p2");
-		map.put("03","p3");
-		map.put("04","p4");
-		map.put("05","p5");
+		map.put("01",p1);
+		map.put("02",p2);
+		map.put("03",p3);
+		map.put("04",p4);
+		map.put("05",p5);
 
 
-		   for (Map.Entry<String, String>m:map.entrySet())
+		   for (Map.Entry<String, Object>m:map.entrySet())
 		{
-			  //added pdCode by user and validation 
+			  //added pdCode by user and validation
 		    if (m.getKey()== "02")
 		    System.out.println(m.getValue());
 		}

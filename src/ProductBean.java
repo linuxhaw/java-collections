@@ -22,8 +22,8 @@ public class ProductBean {
 	public void setPdPrice(double pdPrice) {
 		this.pdPrice = pdPrice;
 	}
-  // public String toString() {
-	//  	 return pdCode+" "+pdName+" "+pdPrice;
-	//   }
+   public String toString() {
+	  	 return pdCode+" "+pdName+" "+pdPrice;
+	   }
 
 }
